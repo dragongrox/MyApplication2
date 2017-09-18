@@ -22,15 +22,23 @@ public class MainActivity extends AppCompatActivity{
 
         inflar();
 
+        btn_0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            }
+        });
+
         btn_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (tv_contador.getText().toString().equals("0"))
                     tv_contador.setText("1");
                 else
-                    tv_contador.setText((Integer.parseInt(tv_contador.getText().toString().trim()) + 1) + "");
+                    tv_contador.setText(""+((Integer.parseInt(tv_contador.getText().toString().trim())) * 10+1));
             }
         });
+
+
 
 
     }
