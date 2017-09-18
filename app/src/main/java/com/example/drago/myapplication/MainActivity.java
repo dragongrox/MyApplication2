@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
-    private Button btn_borrar_todo,btn_borrar_caracter,btn_9,btn_8,btn_7,btn_6,btn_5,btn_4,btn_3,btn_2,btn_1,btn_0,btn_x,btn_menos,btn_mas,btn_bividir,btn_coma,btn_igual;
+    private Button btn_borrar_todo,btn_borrar_caracter,btn_9,btn_8,btn_7,btn_6,btn_5,btn_4,btn_3,btn_2,btn_1,btn_0,btn_x,btn_menos,btn_mas,btn_dividir,btn_coma,btn_igual;
     private TextView tv_contador;
     private ImageView Img_eevee;
     private int num=1;
@@ -50,6 +50,11 @@ public class MainActivity extends AppCompatActivity{
         btn_borrar_todo = (Button)findViewById(R.id.btn_borrar_todo);
         btn_borrar_caracter = (Button)findViewById(R.id.btn_borrar_caracter);
         tv_contador = (TextView)findViewById(R.id.txt_contador);
-        btn_x = (Button)findViewById(R.id.btn_x)
+        btn_x = (Button)findViewById(R.id.btn_x);
+        btn_mas = (Button)findViewById(R.id.btn_mas);
+        btn_menos = (Button)findViewById(R.id.btn_menos);
+        btn_dividir = (Button)findViewById(R.id.btn_dividir);
+        btn_coma = (Button)findViewById(R.id.btn_dividir);
+        btn_igual = (Button)findViewById(R.id.btn_igual);
     }
 }
